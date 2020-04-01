@@ -1,0 +1,6 @@
+---
+# defaults file for EI.MeshAgent
+meshProtocol: https
+meshValidateCert: no
+meshServer: puppet.arc.rice.edu
+meshKey: ''

@@ -1,0 +1,18 @@
+---
+# tasks file for EI.MeshAgent
+- name: Stat MeshAgent configuration file
+  stat:
+    path: /usr/local/mesh/meshagent.msh
+  register: meshagentConfig
+
+- name: Download meshagent install file
+  get_url:
+    url: https://puppet.arc.rice.edu/meshagents?script=1
+    dest: /root/meshinstall.sh
+    mode: 0700
+    owner: root
+    group: root
+    validate_certs: "{{ meshValidateCert }}"
+  notify: Install meshagent
+  when: meshKey != '' and
+        meshagentConfig.stat.exists == False

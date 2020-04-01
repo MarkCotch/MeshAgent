@@ -1,0 +1,4 @@
+---
+# handlers file for EI.MeshAgent:handlers/main.yml
+- name: Install meshagent
+  command: "/root/meshinstall.sh {{ meshProtocol }}://{{ meshServer }} {{ meshKey }}"
