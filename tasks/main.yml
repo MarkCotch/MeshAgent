@@ -1,5 +1,5 @@
 ---
-# tasks file for EI.MeshAgent
+# tasks file for MeshAgent
 - name: Stat MeshAgent configuration file
   stat:
     path: /usr/local/mesh/meshagent.msh

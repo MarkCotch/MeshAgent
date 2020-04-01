@@ -1,5 +1,5 @@
 ---
-# defaults file for EI.MeshAgent
+# defaults file for MeshAgent
 meshProtocol: https
 meshValidateCert: no
 meshServer: meshcentral
