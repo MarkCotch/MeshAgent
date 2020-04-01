@@ -15,4 +15,4 @@
     validate_certs: "{{ meshValidateCert }}"
   notify: Install meshagent
   when: meshKey | length > 0 and
-        meshagentConfig.stat.exists == False
+        not meshagentConfig.stat.exists
