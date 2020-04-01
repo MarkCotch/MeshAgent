@@ -1,4 +1,4 @@
-Role Name
+MeshAgent
 =========
 
 Install the agent for a Mesh Central server.
@@ -6,7 +6,7 @@ Install the agent for a Mesh Central server.
 Requirements
 ------------
 
-System must have connectivity to Mesh Central server
+System must have connectivity to a running Mesh Central server.
 
 Role Variables
 --------------
