@@ -39,13 +39,13 @@ galaxy_info:
     - all
   - name: ubuntu
     versions:
-    - all 
+    - all
 
-  galaxy_tags: 
+  galaxy_tags:
   - meshcentral
   - meshagent
   - vpro
-  - AMT
+  - amt
   
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
