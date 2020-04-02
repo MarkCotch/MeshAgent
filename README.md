@@ -12,7 +12,7 @@ Role Variables
 --------------
 
 meshServer: meshcentral
-MeshCentral server to register against.
+MeshCentral server to register against. (hostname, IP Address or FQDN)
 Default: meshcentral
 
 meshKey: ""
