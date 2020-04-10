@@ -1,7 +1,11 @@
 MeshAgent
 =========
 
-Install the agent for a Mesh Central server.
+Ansible Role to install the agent for a Mesh Central server.  
+
+Available on Ansible-Galaxy
+https://galaxy.ansible.com/markcotch/meshagent
+
 
 Requirements
 ------------
